@@ -1,0 +1,19 @@
+[11:21:00 - main] [GUI.java:1167] [INFO] - > Starting COOJA
+[11:21:00 - main] [GUI.java:2697] [INFO] - Loading external tools user settings from: /external_tools_linux.config
+[11:21:01 - main] [GUI.java:1173] [INFO] - > Creating simulation
+[11:21:04 - AWT-EventQueue-0] [Simulation.java:401] [INFO] - Simulation random seed: 123456
+[11:21:04 - main] [GUI.java:1183] [INFO] - > Creating mote type
+[11:21:05 - AWT-EventQueue-0] [CompileContiki.java:360] [INFO] - Generated Contiki main source: mtype336.c
+[11:21:05 - AWT-EventQueue-0] [CompileContiki.java:91] [INFO] - > make test-app.cooja TARGET=cooja
+[11:21:22 - main] [ContikiMoteType.java:392] [INFO] - Creating core communicator between Java class 'Lib1' and Contiki library 'mtype336.cooja'
+[11:21:25 - main] [ContikiMoteType.java:472] [INFO] - mtype336.cooja: data section at 0x10020 (0x280 bytes)
+[11:21:25 - main] [ContikiMoteType.java:479] [INFO] - mtype336.cooja: BSS section at 0x10140 (0x15568 bytes)
+[11:21:25 - main] [GUI.java:1200] [INFO] - > Adding motes
+[11:21:42 - Thread-4] [Simulation.java:246] [INFO] - Simulation main loop started, system time: 1390888302352
+[11:21:43 - TCPServer_Thread] [TCPServer.java:69] [INFO] - TCP Server started.
+[11:21:43 - SerialServer_Thread] [SerialServer.java:87] [INFO] - Serial Server started
+[11:23:24 - TCPServer_Thread] [TCPServer.java:73] [INFO] - Client connected address : /0:0:0:0:0:0:0:1:33433
+[11:23:35 - Thread-4] [Simulation.java:295] [INFO] - Simulation main loop stopped, system time: 1390888415519	Duration: 113167 ms
+[11:23:36 - AWT-EventQueue-0] [SFClient.java:320] [INFO] - Client disconnected : /0:0:0:0:0:0:0:1:33433
+[11:23:36 - TCPServer_Thread] [TCPServer.java:93] [INFO] - TCP Server stopped.
+[11:23:36 - SerialServer_Thread] [SerialServer.java:97] [INFO] - Serial Server stopped.
